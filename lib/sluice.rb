@@ -16,4 +16,4 @@
 require 'sluice/errors'
 require 'sluice/storage/storage'
 require 'sluice/storage/s3'
-require 'sluice/version'
+require 'version'
