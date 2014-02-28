@@ -16,7 +16,7 @@
 # -*- encoding: utf-8 -*-
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'sluice'
+require 'version'
 
 Gem::Specification.new do |gem|
   gem.authors       = ["Alex Dean", "Michael Tibben"]
@@ -34,6 +34,6 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
 
   # Dependencies
-  gem.add_dependency 'fog', '~> 1.14.0'
+  gem.add_dependency 'fog', '~> 1.15.0'
   gem.add_dependency 'contracts', '~> 0.2.3'
 end

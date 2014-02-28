@@ -16,8 +16,4 @@
 require 'sluice/errors'
 require 'sluice/storage/storage'
 require 'sluice/storage/s3'
-
-module Sluice
-  NAME    = "sluice"
-  VERSION = "0.1.5"
-end
+require 'sluice/version'
